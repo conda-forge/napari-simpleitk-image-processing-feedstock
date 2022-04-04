@@ -27,6 +27,8 @@ requirements:
     - python >=3.7
     - simpleitk
     - napari-assistant
+    - toolz
+    - napari
 
 test:
   imports:
