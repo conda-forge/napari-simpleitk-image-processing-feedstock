@@ -1,5 +1,5 @@
 {% set name = "napari-simpleitk-image-processing" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-simpleitk-image-processing-{{ version }}.tar.gz
-  sha256: 8a6b5fb67e6f803a8971d0105a11ca7aeb6d9d700b99a2920205aa3c290ad33a
+  sha256: cbeb6feb7c2a3b4d6bdbdddb4071ec6b778374dc0902375d26e60245fdd672a3
 
 build:
   noarch: python
