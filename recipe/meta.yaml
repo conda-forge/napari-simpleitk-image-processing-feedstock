@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
   run:
     - napari-plugin-engine >=0.1.4
-    - napari-skimage-regionprops
+    - napari-skimage-regionprops >=0.5.1
     - napari-time-slicer
     - napari-tools-menu
     - numpy
