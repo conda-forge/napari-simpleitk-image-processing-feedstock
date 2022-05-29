@@ -1,5 +1,5 @@
 {% set name = "napari-simpleitk-image-processing" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-simpleitk-image-processing-{{ version }}.tar.gz
-  sha256: 71b48c9e7c18082e20a297e212f0aaaf103d62883faf13b9ba44c5f812957b0d
+  sha256: efc30c6d57e86bb76ff61d444eeeab3371df1c90bbd3b3df6503449e80ca929b
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
   run:
     - napari-plugin-engine >=0.1.4
-    - napari-skimage-regionprops
+    - napari-skimage-regionprops >=0.5.1
     - napari-time-slicer
     - napari-tools-menu
     - numpy
