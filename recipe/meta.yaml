@@ -22,11 +22,11 @@ requirements:
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.5.1
     - napari-time-slicer
-    - napari-tools-menu
+    - napari-tools-menu >=0.1.16
     - numpy
     - python >=3.7
     - simpleitk
-    - napari-assistant
+    - napari-assistant >=0.3.10
     - toolz
     - napari
 
