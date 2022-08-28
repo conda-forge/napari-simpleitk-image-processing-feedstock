@@ -22,13 +22,14 @@ requirements:
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.5.1
     - napari-time-slicer
-    - napari-tools-menu >=0.1.16
+    - napari-tools-menu >=0.1.17
     - numpy
     - python >=3.7
     - simpleitk
     - napari-assistant >=0.3.10
     - toolz
     - napari
+    - stackview >=0.3.2
 
 test:
   imports:
