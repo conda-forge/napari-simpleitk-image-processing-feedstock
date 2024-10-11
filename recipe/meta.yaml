@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
   run:
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.5.1
